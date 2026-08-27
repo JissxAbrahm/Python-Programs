@@ -1,0 +1,12 @@
+
+cel=int(input("Enter the celcius values:"))
+
+fah=cel*9/5+32;
+
+print("The celcius value is:",cel);
+print("The fahrenheit value is:",fah);
+
+//output:
+
+print("The celcius value is:",cel);
+print("The fahrenheit value is:",fah);
