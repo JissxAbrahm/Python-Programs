@@ -1,0 +1,22 @@
+//CREATING VARIBALES AND DDATA TYPES:
+
+age=10
+height=12.3
+name='Ram'
+is_male='TRUE'
+
+print(age,type(age))
+print(height,type(height))
+print(name,type(name))
+print(is_male,type(is_male))
+
+//The output will be:  
+age=10
+height=12.3
+name='Ram'
+is_male='TRUE'
+
+print(age,type(age))
+print(height,type(height))
+print(name,type(name))
+print(is_male,type(is_male))
