@@ -1,0 +1,18 @@
+num1=int(input("Enter a number:"))
+num2=int(input("Enter 2nd number:"))
+
+add=num1+num2;
+sub=num1-num2;
+mul=num1*num2;
+div=num1/num2;
+
+print("Addition:",add);
+print("Subtraction:",sub);
+print("Divison:",div);
+print("Multipication:",mul);
+
+//output:
+Addition: 50
+Subtraction: -10
+Divison: 0.6666666666666666
+Multipication: 600
