@@ -1,0 +1,15 @@
+age=10;
+name='mathew';
+
+print("Before swapping:");
+print(age);
+print(name);
+
+print("After Swpping:");
+
+temp=age;
+age=name;
+name=temp;
+
+print(age);
+print(name);
