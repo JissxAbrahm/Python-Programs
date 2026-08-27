@@ -1,0 +1,14 @@
+a = 10
+b = 5
+
+print("Equal to:", a == b)
+print("Not equal to:", a != b)
+print("Greater than:", a > b)
+print("Less than:", a < b)
+
+//output:
+
+Equal to: False
+Not equal to: True
+Greater than: True
+Less than: False
