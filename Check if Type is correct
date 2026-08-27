@@ -1,0 +1,10 @@
+x = 10.2
+
+if type(x) == int:
+    print("The variable is of type integer")
+else:
+    print("The variable is not of type integer")
+
+//output:
+
+The variable is not of type integer
