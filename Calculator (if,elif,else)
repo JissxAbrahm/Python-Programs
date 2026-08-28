@@ -1,0 +1,22 @@
+##calculator:
+
+num1=float(input("Enter a number"));
+operator=input("The available operators are: (+,-,*,/) :");
+num2=float(input("Enter another number"));
+
+
+if (operator == '+'):
+    result = num1+num2;
+elif (operator == '-'):
+    result = num1-num2;
+elif(operator == '*'):
+    result = num1*num2;
+elif(operator == '/'):
+    if num2 !=0:
+        result=num1/num2;
+    else:
+        result ="Error in division";
+else:
+    result = "Invalid Operator";
+
+print("Result is : ",result);
