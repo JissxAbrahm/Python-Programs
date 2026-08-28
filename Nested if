@@ -1,0 +1,13 @@
+##nested if cases:
+
+num=int(input("Enter a num:"))
+
+if(num>=0):
+    print("Then number is Positive");
+    if(num%2==0):
+        print("Even number");
+    else:
+        print("Odd NUmber");
+else:
+    print("The number is A negative number");
+    
