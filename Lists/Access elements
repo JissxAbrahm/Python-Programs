@@ -1,0 +1,15 @@
+// ACCESS ELEMENTS FROM LIST
+
+fruits=["apple","Orange","mango","grape"]
+print(fruits)
+
+//['apple', 'Orange', 'mango', 'grape']
+
+print(fruits[2]) //mango
+
+print(fruits[-1]) //grape
+
+print(fruits[1:]) // ['Orange', 'mango', 'grape']
+
+print(fruits[2:4]) // ['mango', 'grape']
+
