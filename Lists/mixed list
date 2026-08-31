@@ -1,0 +1,4 @@
+mixed_list=[1,"Hello",3.11,True]
+print(mixed_list)
+
+//[1, 'Hello', 3.11, True]
