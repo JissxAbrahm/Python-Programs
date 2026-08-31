@@ -1,0 +1,94 @@
+LIST METHODS:
+
+fruits.append("banana")
+print(fruits)
+
+//['apple', 'Orange', 'mango', 'grape', 'banana']  //here banana is added towards the end
+
+fruits.insert(1,"guava")
+print(fruits)
+
+//['apple', 'guava', 'Orange', 'mango', 'grape', 'banana'] // addded guava in the first index
+
+fruits.remove("mango")
+print(fruits)
+
+//['apple', 'guava', 'Orange', 'grape', 'banana'] // here all mango present in the list will be removed
+
+case: 
+fruits.insert(4,"mango")
+print(fruits)
+
+['apple', 'guava', 'Orange', 'mango', 'mango', 'grape', 'banana']
+
+now i need to remove the 3rd index mango :
+
+fruits.pop(3)
+print(fruits)
+# Output: ['apple', 'guava', 'Orange', 'mango', 'grape', 'banana']
+
+------or------
+
+del fruits[3]
+print(fruits)
+# Output: ['apple', 'guava', 'Orange', 'mango', 'grape', 'banana']
+
+//POP OPERATION:
+
+BEFORE:
+
+['apple', 'guava', 'Orange', 'mango', 'banana']
+
+AFTER :
+fruits.pop()
+print(fruits)
+['apple', 'guava', 'Orange', 'mango']
+
+// so basically a pop() only is used to remove the last element in the list
+
+// REMOVE AND RETURN THE LAST ELEMENT :
+
+poped_fruit=fruits.pop()
+print(poped_fruit)
+print(fruits)
+
+mango
+['apple', 'guava', 'Orange']
+
+
+// TO FIND THE INDEX OF LIST ELEMNTS:
+
+index=fruits.index("grape")
+print(index)
+//3
+
+// COUNT NUMBER OF ITEMS : 
+
+fruits.insert(2,"grape")
+print(fruits)
+
+//['apple', 'grape', 'grape', 'Orange', 'mango', 'grape']
+
+so:
+
+fruits.insert(2,"grape")
+print(fruits.count("grape"))
+
+// SORTING THE FRUITS IN ACENDIONG ORDER:
+
+fruits.sort()
+fruits
+//['apple', 'grape', 'grape', 'grape', 'grape', 'mango', 'orange']
+
+// REVERSING THE ORDER:
+
+fruits.reverse()
+fruits
+//['orange', 'mango', 'grape', 'grape', 'grape', 'grape', 'apple']
+
+// REMOVE ALL ITEMS IN THE LIST:
+
+fruits.clear()
+fruits
+//[]
+
