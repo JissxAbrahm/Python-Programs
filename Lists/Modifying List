@@ -1,0 +1,12 @@
+// MODIFYING EXISTING LIST:
+
+fruits[1]="cherry"
+print(fruits)   
+
+//['apple', 'cherry', 'mango', 'grape']
+
+fruits[1:]="cherry"
+print(fruits)
+
+['apple', 'c', 'h', 'e', 'r', 'r', 'y']
+
