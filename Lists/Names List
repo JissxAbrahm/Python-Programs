@@ -1,0 +1,4 @@
+names=["Alan","Mathew","Albert"]
+print(names)
+
+//['Alan', 'Mathew', 'Albert']
